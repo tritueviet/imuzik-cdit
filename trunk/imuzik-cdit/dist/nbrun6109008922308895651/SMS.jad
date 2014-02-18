@@ -1,0 +1,8 @@
+MIDlet-1: Imuzik,,Control.Main
+MIDlet-Jar-Size: 1046483
+MIDlet-Jar-URL: SMS.jar
+MIDlet-Name: Imuzik
+MIDlet-Vendor: Cdit
+MIDlet-Version: 1.0.1
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
