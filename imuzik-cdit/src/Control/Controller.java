@@ -29,7 +29,7 @@ public class Controller {
     public ViewMusicList musicList = null;
     public ViewVideoList videoList = null;
     public ViewHome viewHome=null;
-    
+    public ViewPlay viewPlay=null;
     public static Resources theme = null;
 
     private Controller() {
@@ -106,7 +106,10 @@ public class Controller {
 
         }
     }
-    
+    public void showPlay(){
+        viewPlay= new ViewPlay();
+        viewPlay.show();
+    }
     public void exit() {
         //   saveConfig();
         main.destroyApp(true);
@@ -148,7 +151,8 @@ public class Controller {
                 if (selectedIndex == 0) {
                     // showFindATMView();
                 } else if (selectedIndex == 1) {
-                    // autoFinder();
+                    showPlay();
+                    
                 } else if (selectedIndex == 2) {
                     // showLocationATM();
                 } else if (selectedIndex == 3) {
